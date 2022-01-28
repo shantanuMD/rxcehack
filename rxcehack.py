@@ -71,9 +71,7 @@ def hero():
 
 
     
-    elif(now>Final and now<Finalend):
-            period=Current
-            hero()
+    
     
      
 
