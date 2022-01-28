@@ -101,13 +101,13 @@ def hero():
         print("")
         print("")
         print("Please play on the given time, and ")
-        print("If you think it is an error contact")
-        print(" admin on telegram @smsn_knt ")
+        prin
+     
 
 
 
-else:
-    banner='figlet RXCE'
-    system(banner)
-    print("Your hack has expired--- Please contact")
-    print(" on telegram -----------@smsn_knt")
+
+
+
+
+
