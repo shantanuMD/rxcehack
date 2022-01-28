@@ -70,38 +70,11 @@ def hero():
 
 
 
-    now = datetime.datetime.now()
-    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
-
-    if (True):
-            period=404
-            hero()
-    elif(now>First and now<Firstend):
-            period=Current
-            hero()
-    elif(now>Third and now<Thirdend):
-            period=Current
-            hero()
+    
     elif(now>Final and now<Finalend):
             period=Current
             hero()
-    else:
-        banner='figlet RXCE'
-        print("Hi!! Thanks for buying the hack")
-        print("----------Your play time-----------")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("Please play on the given time, and ")
-        prin
+    
      
 
 
