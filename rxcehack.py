@@ -69,7 +69,7 @@ def hero():
 
 
 
-if(expirydate>never):
+if(Today):
     now = datetime.datetime.now()
     First = now.replace(hour=13, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
